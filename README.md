@@ -1,4 +1,17 @@
 # nltk-language-detection
+# English below
+# la code ajouté et modifie par: Dung Ali Hafez
+Verrez la cette site:
+https://www.le-geek.com/detection-de-langue-en-nlp-natural-language-processing/
+
+##  
+# maintenant on lit le texte de stdin
+# ce pendenant
+# elinks -dump site | python3 ./app.py 
+# cat app.py | python3 ./app.py
+# sont possible
+
+
 
 [![N|Solid](http://www.le-geek.com/wp-content/uploads/2017/02/geek.png)](https://www.le-geek.com/)
 
