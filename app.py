@@ -9,7 +9,7 @@
 # maintenant on lit le texte de stdin
 # ce pendenant
 # elinks -dump site | python3 ./app.py   
-# cat app.py | python3 ./app.py 
+# cat une_texte | python3 ./app.py 
 # sont possible
 
 #

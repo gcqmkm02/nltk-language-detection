@@ -12,7 +12,6 @@
 # cat app.py | python3 ./app.py 
 # sont possible
 
-#
 
 
 

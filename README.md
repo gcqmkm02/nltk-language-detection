@@ -10,7 +10,18 @@ https://www.le-geek.com/detection-de-langue-en-nlp-natural-language-processing/
 # elinks -dump site | python3 ./app.py 
 # cat app.py | python3 ./app.py
 # sont possible
-
+#
+#
+#  
+# Bug: texte_dans une langue pas supporte
+# 17/03/2020
+# nltk package recoginize pas les langues comme Japonais, Chinois, Vietnamienne...
+# comme vous pouvez voir avec index.nginx-japonais dans le dossier examples il détécte langue anglais même
+# si le fichier était écrit en Japonais.
+# example: cat examples/texte_coreen.txt | python3 ./app.py 
+#
+# détecte que le texte est écrite en langue anglais et pas en coréen
+#
 
 
 [![N|Solid](http://www.le-geek.com/wp-content/uploads/2017/02/geek.png)](https://www.le-geek.com/)
