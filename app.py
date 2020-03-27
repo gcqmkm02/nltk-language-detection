@@ -7,7 +7,7 @@
 # 08/03/2020
 
 # maintenant on lit le texte de stdin
-# ce pendenant
+# ce pendant
 # elinks -dump site | python3 ./app.py   
 # cat une_texte | python3 ./app.py 
 # sont possible
@@ -21,7 +21,7 @@ import sys
 from nltk import wordpunct_tokenize
 from nltk.corpus import stopwords
 
-debougage = 0  # si 1 on debougge
+debougage = 0  # si 1 on debouge
 in_active = 1  # si 1, applis lit le texte de stdin
 
 def _calc_ratios(texte):
@@ -74,7 +74,7 @@ def _calc_probability(most, secode_most) :
 
 if __name__=='__main__':
 
-    # example texte en français 
+    # exemple texte en français 
     #text snipet from http://latta.blog.lemonde.fr/2017/02/08/goal-line-technology-un-nouveau-bug-contre-son-camp/
     textefr = '''
     Le match de Ligue 1 Bordeaux-Rennes, ce week-end, a été le théâtre du troisième incident significatif

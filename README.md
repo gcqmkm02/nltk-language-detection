@@ -1,8 +1,12 @@
 # nltk-language-detection
 # English below
 # la code ajouté et modifie par: Dung Ali Hafez
-Verrez la cette site:
-https://www.le-geek.com/detection-de-langue-en-nlp-natural-language-processing/
+# Verrez la cette site:
+# https://www.le-geek.com/detection-de-langue-en-nlp-natural-language-processing/
+
+
+
+[![N|Solid](http://www.le-geek.com/wp-content/uploads/2017/02/geek.png)](https://www.le-geek.com/)
 
 ##  
 # maintenant on lit le texte de stdin
@@ -15,16 +19,16 @@ https://www.le-geek.com/detection-de-langue-en-nlp-natural-language-processing/
 #  
 # Bug: texte_dans une langue pas supporte
 # 17/03/2020
-# nltk package recoginize pas les langues comme Japonais, Chinois, Vietnamienne...
-# comme vous pouvez voir avec index.nginx-japonais dans le dossier examples il détécte langue anglais même
+# nltk package reconnaître pas les langues comme Japonais, Chinois, Vietnamienne...
+# comme vous pouvez voir avec index.nginx-japonais dans le dossier exemples il détecte langue anglais même
 # si le fichier était écrit en Japonais.
 # example: cat examples/texte_coreen.txt | python3 ./app.py 
 #
 # détecte que le texte est écrite en langue anglais et pas en coréen
-#
+# comment détecter que le texte est écrite dans une langue pas supporté
 
 
-[![N|Solid](http://www.le-geek.com/wp-content/uploads/2017/02/geek.png)](https://www.le-geek.com/)
+
 
 Automatic detection of text language with Python and NLTK.
 This script uses a very simple approach based on stopwords comparaison. The stopwords list with the most commun words wins the association.
